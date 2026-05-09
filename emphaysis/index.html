@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emphasys IT – Digital Transformation That Actually Works</title>
+  <meta name="description" content="We help enterprise IT leaders plan, deliver and optimise cloud, AI and transformation programmes — with faster delivery, lower total cost and measurable outcomes." />
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+<link rel="stylesheet" href="/owl.carousel.min.css">
+<link rel="stylesheet" href="/owl.theme.default.min.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVBAR ===================== -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-lg">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="images/EmphasysIT - logo.webp" alt="logo">
+        </a>
+        <!-- Contact + Search -->
+            <div class="d-flex align-items-center ms-auto order-3 order-xl-3">
+                <a href="#" class="btn btn-primary ms-lg-3 d-xl-inline-block nav-cta btn-primary-green">
+                    Discuss Your Project
+                </a>
+                <a class="nav-link text-white p-0 ms-3 search-trigger" href="#" id="searchTrigger"
+                    aria-label="Open search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+
+            <!-- ── Search Overlay ── -->
+            <div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Site search">
+                <div class="search-box">
+                    <div class="search-input-wrap">
+                        <input type="text" id="searchInput" placeholder="Search" autocomplete="off"
+                            spellcheck="false" />
+                        <button class="search-submit" aria-label="Submit search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <p class="search-close-hint">Press <kbd>Esc</kbd> or click outside to close</p>
+                </div>
+            </div>
+            <!-- ── Close Button ── -->
+            <button class="search-close-btn" id="searchClose" aria-label="Close search">
+                <i class="bi bi-x-lg"></i>
+            </button>
+
+            <!-- Hamburger -->
+            <button class="navbar-toggler ms-3 order-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation" id="navToggler">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+        <!-- Toggler -->
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse order-4 order-lg-2 order-xl-2" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Digital Transformation Consulting</a></li>
+                <li><a class="dropdown-item" href="#">Cloud Transformation</a></li>
+                <li><a class="dropdown-item" href="#">Azure Migration</a></li>
+                <li><a class="dropdown-item" href="#">AI Adoption & Transformation</a></li>
+                <li><a class="dropdown-item" href="#">IT Infrastructure & Networking</a></li>
+                <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+                <li><a class="dropdown-item" href="#">Workplace Technology</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Sectors</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Healthcare</a></li>
+                <li><a class="dropdown-item" href="#">Transport & Cities</a></li>
+                <li><a class="dropdown-item" href="#">Financial Services</a></li>
+                <li><a class="dropdown-item" href="#">People First</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Insights</a></li>
+          </ul>
+          <!-- <a href="#contact" class="btn btn-primary-green">Discuss Your Project</a> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO / BANNER ===================== -->
+  <section class="hero-section" id="hero">
+    <!-- <div class="hero-bg">
+      <div class="hero-glow hero-glow--1"></div>
+      <div class="hero-glow hero-glow--2"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div> -->
+    <div class="container-xl hero-content">
+      <div class="row align-items-center min-vh-hero">
+        <div class="col-lg-9">
+          
+          <h1 class="hero-title">
+            Digital Transformation<br />
+            That <span class="text-gradient">Actually Works</span>
+          </h1>
+          <p class="hero-subtitle mb-4">
+            We help enterprise IT leaders plan, deliver and optimise cloud, AI and transformation programmes — with faster delivery, lower total cost and measurable outcomes for business systems and the people who use them.
+          </p>
+          <div class="hero-badges mb-4">
+            <span class="hero-badge"><img src="images/banner-icon-1.webp" alt="icon-1"> Digital Transformation</span>
+            <span class="hero-badge"><img src="images/banner-icon-2.webp" alt="icon-2"> AI Adoption</span>
+            <span class="hero-badge"><img src="images/banner-icon-3.webp" alt="icon-3"> Cloud Delivery</span>
+          </div>
+          <div class="hero-cta d-flex flex-wrap gap-3 mt-5">
+            <a href="#contact" class="btn btn-primary-green btn-lg">Discuss Your Project</a>
+            <a href="#case-studies" class="btn btn-outline-white btn-lg">View Case Studies</a>
+          </div>
+          <div class="hero-stats mt-5 d-flex flex-wrap gap-4">
+            <div class="hero-stat">
+              <span class="hero-stat__value">15+</span>
+              <span class="hero-stat__label">Years delivering<br> transformation</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat__value">40%</span>
+              <span class="hero-stat__label">Avg. delivery <br> time saved</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat__value">12+</span>
+              <span class="hero-stat__label">Sectors <br>supported</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===================== TRUST BAND ===================== -->
+  <section class="trust-section">
+    <div class="container">
+      <h2 class="trust-heading text-center section-title"><span class="text-gradient fw-semibold">Trusted to deliver</span> where complexity matters</h2>
+    </div>
+    <div class="container-fluid px-0">
+      
+      <div class="logo-marquee">
+        <div class="logo-marquee__track">
+          <!-- Logos repeated for seamless loop -->
+          <div class="logo-item">
+            <img src="images/logo-1.webp" alt="logo-1">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-2.webp" alt="logo-2">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-1.webp" alt="logo-1">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-3.webp" alt="logo-3">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-4.webp" alt="logo-4">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-5.webp" alt="logo-5">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-6.webp" alt="logo-6">
+          </div>
+          <!-- Duplicate for loop -->
+          <div class="logo-item">
+            <img src="images/logo-1.webp" alt="logo-1">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-2.webp" alt="logo-2">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-3.webp" alt="logo-3">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-4.webp" alt="logo-4">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-5.webp" alt="logo-5">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-6.webp" alt="logo-6">
+          </div>
+          <div class="logo-item">
+            <img src="images/logo-7.webp" alt="logo-7">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  </section>
+<!-- ===================== Trust stats ===================== -->
+  <section class="trust-stats-container">
+    <div class="trust-stats g-4 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-3">
+          <div class="trust-stat">
+            <div class="trust-value-wrapper">
+              <span class="trust-stat__value counter" data-target="15">0</span><span class="trust-stat__value">+</span>
+            </div>
+            <p class="trust-stat__label">Years delivering transformation</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="trust-stat">
+            <div class="trust-value-wrapper">
+            <span class="trust-stat__value counter" data-target="40">0</span><span class="trust-stat__value">%</span>
+            </div>
+            <p class="trust-stat__label">Avg. delivery time saved</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="trust-stat">
+            <div class="trust-value-wrapper">
+              <span class="trust-stat__value counter" data-target="12">0</span><span class="trust-stat__value">+</span>
+            </div>
+            <p class="trust-stat__label">Sectors supported</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="trust-stat">
+            <div class="trust-value-wrapper">
+              <span class="trust-stat__value counter" data-target="200">0</span><span class="trust-stat__value">+</span>
+            </div>
+            <p class="trust-stat__label">Outcomes / projects delivered</p>
+          </div>
+        </div>
+          </div>
+        </div>
+        
+      </div>
+  </section>
+  
+
+  <!-- ===================== PROBLEMS ===================== -->
+  <section class="problems-section section-dark" id="problems">
+    <div class="container-xl">
+      <h2 class="section-title text-center">
+        <span class="underline-text">Too many</span> transformation programmes <span class="text-gradient">fail <span class="text-red">to deliver</span>
+      </h2>
+      <div class="problems-grid mt-5">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12 mb-4 gradient-box">
+                  <div class="problem-card red-gradient">
+                    <span class="problem-icon"><i class="bi bi-exclamation-triangle-fill text-danger"></i></span>
+                    <p>Adoption is weaker than expected</p>
+                  </div>                   
+                </div>
+                <div class="col-md-12 mb-4 gradient-box">
+                  <div class="problem-card red-gradient">
+                    <span class="problem-icon"><i class="bi bi-exclamation-triangle-fill text-danger"></i></span>
+                    <p>Delivery gets stuck across multiple stakeholders</p>
+                  </div>                   
+                </div>
+                <div class="col-md-12 mb-4 gradient-box">
+                  <div class="problem-card red-gradient">
+                    <span class="problem-icon"><i class="bi bi-exclamation-triangle-fill text-danger"></i></span>
+                    <p>Strategy fails to translate into execution</p>
+                  </div>                   
+                </div>
+            </div>           
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12 mb-4 gradient-box-two">
+                  <div class="problem-card green-gradient">
+                    <span class="problem-icon"><i class="bi bi-exclamation-triangle-fill text-danger"></i></span>
+                    <p>Adoption is weaker than expected</p>
+                  </div>                   
+                </div>
+                <div class="col-md-12 mb-4 gradient-box-two">
+                  <div class="problem-card green-gradient">
+                    <span class="problem-icon"><i class="bi bi-exclamation-triangle-fill text-danger"></i></span>
+                    <p>Technical delivery happens without enough business value</p>
+                  </div>                   
+                </div>
+                <div class="col-md-12  mb-4 gradient-box-two">
+                  <div class="problem-card green-gradient">
+                    <span class="problem-icon"><i class="bi bi-exclamation-triangle-fill text-danger"></i></span>
+                    <p>Large consultancies can feel process- heavy and distant from outcomes
+</p>
+                  </div>                   
+                </div>
+            </div>           
+          </div>
+          <div class="col-md-4 d-flex align-items-stretch">
+            <div class="solution-card w-100">
+              <h4 class="solution-card__title"><i class="bi bi-check-circle-fill text-green"></i> The solution</h4>
+              <p>Emphasys IT is built to solve that problem — with strategic insight, hands-on delivery and clear accountability from start to finish.</p>
+              <a href="#" class="btn btn-primary-green mt-3">See Our Approach</a>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== UPS SERVICES ===================== -->
+  <section class="ups-services">
+    <!-- ===================== USPs ===================== -->
+  <section class="usps-section" id="approach">
+    <div class="container-xl">
+      <div class="text-center title-subtitle">
+        <h2 class="section-title">A <span class="text-gradient">different approach</span> to enterprise digital transformation</h2>
+        <p class="section-subtitle">We combine strategic insight with practical delivery to achieve faster, more accountable outcomes than traditional large-scale consultancies.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3">
+          <div class="usp-card usp-card-1 card-onhover">
+            <div class="usp-card__icon card-icon-1">
+              <img src="images/icon-1.webp" alt="icon-1">
+            </div>
+            <h5>Faster delivery</h5>
+            <p>Programmes move forward with tighter execution, stronger ownership and less wasted time.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="usp-card card-onhover">
+            <div class="usp-card__icon card-icon-2">
+              <img src="images/icon-2.webp" alt="icon-2">
+            </div>
+            <h5>Greater accountability</h5>
+            <p>Senior experts stay close to delivery, helping reduce risk and keep outcomes on track.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="usp-card card-onhover">
+            <div class="usp-card__icon card-icon-3">
+             <img src="images/icon-3.webp" alt="icon-3">
+            </div>
+            <h5>Measurable business outcomes</h5>
+            <p>Success is defined by business impact, not just technical completion.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="usp-card card-onhover">
+            <div class="usp-card__icon card-icon-4">
+              <img src="images/icon-4.webp" alt="icon-4">
+            </div>
+            <h5>Lower total cost</h5>
+            <p>Better delivery reduces overruns, rework and hidden programme costs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center usps-button">
+        <a href="#" class="btn btn-primary-green btn-lg">Explore Our Approach</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services-section" id="services">
+    <div class="container-xl">
+      <div class="text-center title-subtitle">
+        <h2 class="section-title">Transformation services <span class="text-gradient">designed to deliver</span> outcomes</h2>
+        <p class="section-subtitle">From strategy to implementation, we help organisations deliver change that works in practice.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card card-onhover">
+            <div class="service-card__icon">
+              <img src="images/service-1.webp" alt="service-1">
+            </div>
+            <h5>Digital Transformation Consulting</h5>
+            <p>Plan and deliver complex transformation programmes with stronger governance, clearer direction and better results.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card card-onhover">
+            <div class="service-card__icon">
+              <img src="images/service-2.webp" alt="service-2">
+            </div>
+            <h5>Cloud Transformation</h5>
+            <p>Modernise platforms and operations to improve agility, performance and scalability.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card card-onhover">
+            <div class="service-card__icon">
+              <img src="images/service-3.webp" alt="service-3">
+            </div>
+            <h5>Azure Migration</h5>
+            <p>Move with confidence using structured migration planning, reduced disruption and stronger long-term value.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card card-onhover">
+            <div class="service-card__icon">
+              <img src="images/service-4.webp" alt="service-4">
+            </div>
+            <h5>AI Adoption & Transformation</h5>
+            <p>Turn AI ambition into practical implementation, better decision-making and measurable value.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card card-onhover">
+            <div class="service-card__icon">
+              <img src="images/service-5.webp" alt="service-5">
+            </div>
+            <h5>Workplace Technology</h5>
+            <p>Enable more productive, connected teams with tools that improve day-to-day work.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card card-onhover">
+            <div class="service-card__icon">
+              <img src="images/service-6.webp" alt="service-6">
+            </div>
+            <h5>IT Infrastructure & Networking</h5>
+            <p>Build resilient, secure foundations that support performance and growth.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card card-onhover">
+            <div class="service-card__icon">
+              <img src="images/service-7.webp" alt="service-7">
+            </div>
+            <h5>Cyber Security</h5>
+            <p>Reduce risk and strengthen organisational confidence with security built into delivery.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center button-space-top">
+        <a href="#" class="btn btn-primary-green btn-lg">View All Services</a>
+      </div>
+    </div>
+  </section>
+  </section>
+  
+
+  <!-- ===================== WHY CHOOSE US ===================== -->
+  <section class="why-section" id="why">
+    <div class="container-xl">
+      <div class="text-center">
+        <h2 class="section-title">What <span class="text-gradient">successful transformation</span> should deliver</h2>
+      </div>
+      <div class="why-tags d-flex flex-wrap justify-content-center gap-4 mb-5">
+        <span class="why-tag"><i class="bi bi-check-circle-fill"></i> Faster programme delivery</span>
+        <span class="why-tag"><i class="bi bi-check-circle-fill"></i> Stronger user adoption</span>
+        <span class="why-tag"><i class="bi bi-check-circle-fill"></i> Reduced operational risk</span>
+        <span class="why-tag"><i class="bi bi-check-circle-fill"></i> Lower total cost of delivery</span>
+        <span class="why-tag"><i class="bi bi-check-circle-fill"></i> Better use of cloud and AI investment</span>
+        <span class="why-tag"><i class="bi bi-check-circle-fill"></i> More confidence for leadership teams</span>
+        <span class="why-tag"><i class="bi bi-check-circle-fill"></i> Long-term value, not short-term fixes</span>
+      </div>
+      <div class="text-center button-space-top">
+        <a href="#contact" class="btn btn-primary-green btn-lg">Tell Us Your Goals</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTORS ===================== -->
+  <section class="sectors-section section-dark" id="sectors">
+    <div class="container-xl">
+      <div class="text-center title-subtitle">
+        <h2 class="section-title">Technology that delivers <span class="text-gradient">real-world outcomes</span> for people and society</h2>
+        <p class="section-subtitle">The best transformation does more than improve systems — it creates healthier services, smarter cities and better long-term outcomes.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3">
+          <div class="sector-card card-onhover">
+            <div class="sector-card__img sector-card__img--healthcare">
+              <img src="images/world-1.webp" alt="world-1" class="img-fluid">
+            </div>
+            <div class="sector-card__body">
+              <h5>Healthcare</h5>
+              <p>Helping clinicians access better insight and improve care.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="sector-card card-onhover">
+            <div class="sector-card__img sector-card__img--transport">
+              <img src="images/world-2.webp" alt="world-2" class="img-fluid">
+            </div>
+            <div class="sector-card__body">
+              <h5>Transport & Cities</h5>
+              <p>Supporting cleaner transport systems and healthier urban environments.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="sector-card card-onhover">
+            <div class="sector-card__img sector-card__img--finance">
+              <img src="images/world-3.webp" alt="world-3" class="img-fluid">
+            </div>
+            <div class="sector-card__body">
+              <h5>Financial Services</h5>
+              <p>Creating tools that help people and families build financial security.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="sector-card card-onhover">
+            <div class="sector-card__img sector-card__img--people">
+              <img src="images/world-4.webp" alt="world-4" class="img-fluid">
+            </div>
+            <div class="sector-card__body">
+              <h5>People First</h5>
+              <p>Ensuring technology works in practice for end users and organisations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CASE STUDIES ===================== -->
+  <section class="case-studies-section" id="case-studies">
+    <div class="container-fluid px-0">
+      <div class="container">
+      <div class="text-center title-subtitle">
+        <h2 class="section-title">Proof that <span class="text-gradient">delivery matters</span></h2>
+        <p class="section-subtitle">See how better execution creates better outcomes.</p>
+      </div>
+      </div>
+
+      <!-- Carousel -->
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="carousel-wrapper">
+            <div class="carousel-title-wrapper">
+              <div class="carousel-subtitle d-flex gap-2 align-items-center mb-2">
+                  <div class="carousel-icon">
+                    <img src="images/service-1.webp" alt="service-1">
+                  </div>
+                  <div class="carousel-sub">
+                    <p class="mb-0">Digital Transformation Consulting</p>
+                  </div>
+              </div>
+              <div class="carousel-title mb-3">
+                <h3>Global Banking Data Governance & Security Integration</h3>
+              </div>
+              </div>
+              <div class="carousel-content">
+                <p>We led the complex implementation of a data privacy and governance platform for this global financial institution. By aligning technical expertise with the client's specific operational needs, we ensured a seamless rollout that enhanced data oversight and security. Our proactive approach delivered a high-performance solution, providing the client with a robust, reliable framework for long-term data compliance and management.</p>
+              </div>
+              <div class="quote-content">
+                <p>We are incredibly pleased with the outstanding work Emphasys IT has done for us on the BigID implementation project. Their team demonstrated deep expertise, professionalism, and a commitment to excellence throughout the project, ensuring a smooth and successful deployment of the solution.</p>
+                <p>A special shout out goes to Barry, who has been exceptionally helpful. His knowledge, responsiveness, and professionalism made a real difference in the process. Barry not only provided expert guidance but also went above and beyond to address our specific needs and ensure we achieved the desired outcomes.</p>
+                <p>We highly recommend Emphasys IT for any organization looking for a skilled and reliable partner in implementing data governance solutions.</p>
+                <div class="quote-author">
+                  <h5>MUFG - Chenhuan Liang </h5>
+                  <p>Data Privacy & Data Governance Manager</p>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-wrapper">
+            <div class="carousel-title-wrapper">
+              <div class="carousel-subtitle d-flex gap-2 align-items-center mb-2">
+                  <div class="carousel-icon">
+                    <img src="images/service-1.webp" alt="service-1">
+                  </div>
+                  <div class="carousel-sub">
+                    <p class="mb-0">Digital Transformation Consulting</p>
+                  </div>
+              </div>
+              <div class="carousel-title mb-3">
+                <h3>Global Banking Data Governance & Security Integration</h3>
+              </div>
+              </div>
+              <div class="carousel-content">
+                <p>We led the complex implementation of a data privacy and governance platform for this global financial institution. By aligning technical expertise with the client's specific operational needs, we ensured a seamless rollout that enhanced data oversight and security. Our proactive approach delivered a high-performance solution, providing the client with a robust, reliable framework for long-term data compliance and management.</p>
+              </div>
+              <div class="quote-content">
+                <p>We are incredibly pleased with the outstanding work Emphasys IT has done for us on the BigID implementation project. Their team demonstrated deep expertise, professionalism, and a commitment to excellence throughout the project, ensuring a smooth and successful deployment of the solution.</p>
+                <p>A special shout out goes to Barry, who has been exceptionally helpful. His knowledge, responsiveness, and professionalism made a real difference in the process. Barry not only provided expert guidance but also went above and beyond to address our specific needs and ensure we achieved the desired outcomes.</p>
+                <p>We highly recommend Emphasys IT for any organization looking for a skilled and reliable partner in implementing data governance solutions.</p>
+                <div class="quote-author">
+                  <h5>MUFG - Chenhuan Liang </h5>
+                  <p>Data Privacy & Data Governance Manager</p>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-wrapper">
+            <div class="carousel-title-wrapper">
+              <div class="carousel-subtitle d-flex gap-2 align-items-center mb-2">
+                  <div class="carousel-icon">
+                    <img src="images/service-1.webp" alt="service-1">
+                  </div>
+                  <div class="carousel-sub">
+                    <p class="mb-0">Digital Transformation Consulting</p>
+                  </div>
+              </div>
+              <div class="carousel-title mb-3">
+                <h3>Global Banking Data Governance & Security Integration</h3>
+              </div>
+              </div>
+              <div class="carousel-content">
+                <p>We led the complex implementation of a data privacy and governance platform for this global financial institution. By aligning technical expertise with the client's specific operational needs, we ensured a seamless rollout that enhanced data oversight and security. Our proactive approach delivered a high-performance solution, providing the client with a robust, reliable framework for long-term data compliance and management.</p>
+              </div>
+              <div class="quote-content">
+                <p>We are incredibly pleased with the outstanding work Emphasys IT has done for us on the BigID implementation project. Their team demonstrated deep expertise, professionalism, and a commitment to excellence throughout the project, ensuring a smooth and successful deployment of the solution.</p>
+                <p>A special shout out goes to Barry, who has been exceptionally helpful. His knowledge, responsiveness, and professionalism made a real difference in the process. Barry not only provided expert guidance but also went above and beyond to address our specific needs and ensure we achieved the desired outcomes.</p>
+                <p>We highly recommend Emphasys IT for any organization looking for a skilled and reliable partner in implementing data governance solutions.</p>
+                <div class="quote-author">
+                  <h5>MUFG - Chenhuan Liang </h5>
+                  <p>Data Privacy & Data Governance Manager</p>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-wrapper">
+            <div class="carousel-title-wrapper">
+              <div class="carousel-subtitle d-flex gap-2 align-items-center mb-2">
+                  <div class="carousel-icon">
+                    <img src="images/service-1.webp" alt="service-1">
+                  </div>
+                  <div class="carousel-sub">
+                    <p class="mb-0">Digital Transformation Consulting</p>
+                  </div>
+              </div>
+              <div class="carousel-title mb-3">
+                <h3>Global Banking Data Governance & Security Integration</h3>
+              </div>
+              </div>
+              <div class="carousel-content">
+                <p>We led the complex implementation of a data privacy and governance platform for this global financial institution. By aligning technical expertise with the client's specific operational needs, we ensured a seamless rollout that enhanced data oversight and security. Our proactive approach delivered a high-performance solution, providing the client with a robust, reliable framework for long-term data compliance and management.</p>
+              </div>
+              <div class="quote-content">
+                <p>We are incredibly pleased with the outstanding work Emphasys IT has done for us on the BigID implementation project. Their team demonstrated deep expertise, professionalism, and a commitment to excellence throughout the project, ensuring a smooth and successful deployment of the solution.</p>
+                <p>A special shout out goes to Barry, who has been exceptionally helpful. His knowledge, responsiveness, and professionalism made a real difference in the process. Barry not only provided expert guidance but also went above and beyond to address our specific needs and ensure we achieved the desired outcomes.</p>
+                <p>We highly recommend Emphasys IT for any organization looking for a skilled and reliable partner in implementing data governance solutions.</p>
+                <div class="quote-author">
+                  <h5>MUFG - Chenhuan Liang </h5>
+                  <p>Data Privacy & Data Governance Manager</p>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-wrapper">
+            <div class="carousel-title-wrapper">
+              <div class="carousel-subtitle d-flex gap-2 align-items-center mb-2">
+                  <div class="carousel-icon">
+                    <img src="images/service-1.webp" alt="service-1">
+                  </div>
+                  <div class="carousel-sub">
+                    <p class="mb-0">Digital Transformation Consulting</p>
+                  </div>
+              </div>
+              <div class="carousel-title mb-3">
+                <h3>Global Banking Data Governance & Security Integration</h3>
+              </div>
+              </div>
+              <div class="carousel-content">
+                <p>We led the complex implementation of a data privacy and governance platform for this global financial institution. By aligning technical expertise with the client's specific operational needs, we ensured a seamless rollout that enhanced data oversight and security. Our proactive approach delivered a high-performance solution, providing the client with a robust, reliable framework for long-term data compliance and management.</p>
+              </div>
+              <div class="quote-content">
+                <p>We are incredibly pleased with the outstanding work Emphasys IT has done for us on the BigID implementation project. Their team demonstrated deep expertise, professionalism, and a commitment to excellence throughout the project, ensuring a smooth and successful deployment of the solution.</p>
+                <p>A special shout out goes to Barry, who has been exceptionally helpful. His knowledge, responsiveness, and professionalism made a real difference in the process. Barry not only provided expert guidance but also went above and beyond to address our specific needs and ensure we achieved the desired outcomes.</p>
+                <p>We highly recommend Emphasys IT for any organization looking for a skilled and reliable partner in implementing data governance solutions.</p>
+                <div class="quote-author">
+                  <h5>MUFG - Chenhuan Liang </h5>
+                  <p>Data Privacy & Data Governance Manager</p>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="text-center button-space-top">
+        <a href="#contact" class="btn btn-primary-green btn-lg">View All Case Studies</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+<!-- ===================== TEAM CTA LOGO ===================== -->
+ <section class="team-cta-logo">
+   <!-- ===================== TEAM ===================== -->
+  <section class="team-section" id="team">
+    <div class="container-xl">
+      <div class="text-center title-subtitle">
+        <h2 class="section-title">Meet the <span class="text-gradient">team</span></h2>
+        <p class="section-subtitle">Our people combine technical expertise, strategic thinking and hands-on delivery experience.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="team-card text-center">
+            <div class="team-card__avatar">
+              <div class="team-avatar-placeholder">
+                <img src="images/team-1.webp" alt="team-1" class="img-fluid">
+              </div>
+            </div>
+            <h5 class="team-card__name">Barry Morgan</h5>
+            <p class="team-card__role">Founder &amp; CTO</p>
+            
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="team-card text-center">
+            <div class="team-card__avatar">
+              <div class="team-avatar-placeholder">
+                <img src="images/team-2.webp" alt="team-2" class="img-fluid">
+              </div>
+            </div>
+            <h5 class="team-card__name">Sunny Tailor</h5>
+            <p class="team-card__role">Founder &amp; Enterprise Architect</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BAND ===================== -->
+  <section class="cta-section">
+    <!-- <div class="cta-section__bg">
+      <div class="cta-glow cta-glow--1"></div>
+      <div class="cta-glow cta-glow--2"></div>
+    </div> -->
+    <div class="container-xl position-relative text-center">
+      <div class="text-center  title-subtitle">
+        <h2 class="section-title">When failure isn't an option, choose a partner <span class="text-gradient">built for delivery</span></h2>
+        <p class="section-subtitle">Let's talk about how to deliver your cloud, AI or digital transformation programme with greater speed, accountability and confidence.</p>
+
+      </div>
+      
+      <div class="d-flex flex-wrap gap-3 justify-content-center mt-4">
+        <a href="#contact" class="btn btn-primary-green btn-lg">Discuss Your Project</a>
+        <a href="#" class="btn btn-outline-white btn-lg">Invite Us to Tender</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="logo-slider-section">
+    <div class="container-fluid px-0">
+       <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="logo-slider">
+            <img src="images/slide-1.webp" alt="slide-1">
+          </div>
+        </div>
+         <div class="item">
+          <div class="logo-slider">
+            <img src="images/slide-2.webp" alt="slide-2">
+          </div>
+        </div>
+         <div class="item">
+          <div class="logo-slider">
+            <img src="images/slide-3.webp" alt="slide-3">
+          </div>
+        </div>
+         <div class="item">
+          <div class="logo-slider">
+            <img src="images/slide-4.webp" alt="slide-4">
+          </div>
+        </div>
+         <div class="item">
+          <div class="logo-slider">
+            <img src="images/slide-5.webp" alt="slide-5">
+          </div>
+        </div>
+         <div class="item">
+          <div class="logo-slider">
+            <img src="images/slide-6.webp" alt="slide-6">
+          </div>
+        </div>
+         <div class="item">
+          <div class="logo-slider">
+            <img src="images/slide-7.webp" alt="slide-7">
+          </div>
+        </div>
+         <div class="item">
+          <div class="logo-slider">
+            <img src="images/slide-8.webp" alt="slide-8">
+          </div>
+        </div>
+  </section>
+ </section>
+
+  <!-- ===================== BLOG / INSIGHTS ===================== -->
+  <section class="blog-section section-dark" id="insights">
+    <div class="container-xl">
+      <div class="text-center title-subtitle">
+        <h2 class="section-title">Industry Insights</h2>
+        <p class="section-subtitle">Practical thinking on transformation, delivery and digital change.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="blog-card">
+            <div class="blog-card__img blog-card__img--ai">
+              <img src="images/world-1.webp" alt="world-1" class="img-fluid">
+            </div>
+            <div class="blog-card__body">
+              <span class="blog-card__date">April 2026</span>
+              <h5 class="blog-card__title">Why AI Adoption Is Falling Flat — And How to Fix It</h5>
+              <p>Many organisations fail to see a return on AI because they treat it as a standalone tool rather than a strategic shift; we explore how aligning AI with core business objectives and robust data governance turns experimental tech into a scalable engine for growth.</p>
+              <a href="#" class="btn btn-primary-green btn-sm mt-3">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-card">
+            <div class="blog-card__img blog-card__img--ai">
+              <img src="images/world-2.webp" alt="world-2" class="img-fluid">
+            </div>
+            <div class="blog-card__body">
+              <span class="blog-card__date">March 2026</span>
+              <h5 class="blog-card__title">The Hidden Cost of Slow Digital Transformation Delivery</h5>
+              <p>Delayed transformation creates a "technical debt" that drains resources and kills competitive advantage; this post breaks down the financial and operational risks of inertia and how a disciplined, product-led approach can accelerate speed-to-market.</p>
+              <a href="#" class="btn btn-primary-green btn-sm mt-3">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-card">
+            <div class="blog-card__img blog-card__img--change">
+              <img src="images/world-3.webp" alt="world-3" class="img-fluid">
+            </div>
+            <div class="blog-card__body">
+              <span class="blog-card__date">February 2026</span>
+              <h5 class="blog-card__title">How to Make Technology Change Stick in Complex Organisations</h5>
+              <p>True digital evolution requires more than just new software — it demands a cultural shift; we outline the frameworks for fostering a results-driven mindset and implementing user-centric architecture that ensures lasting adoption.</p>
+              <a href="#" class="btn btn-primary-green btn-sm mt-3">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-top">
+      <div class="container-xl">
+        <div class="row g-5">
+          <!-- Brand col -->
+          <div class="col-lg-3 mb-4 mb-lg-0">
+            <a class="navbar-brand mb-3 d-inline-block" href="#">
+              <img src="images/footer-logo.webp" alt="logo">
+              <!-- <span class="logo-text">Emphasys <span class="logo-accent">IT</span></span> -->
+            </a>
+            <p class="footer-tagline">Digital transformation consultancy for complex organisations.</p>
+            <p class="footer-contact"><a href="mailto:hello@emphasysit.com">hello@emphasysit.com</a></p>
+            <p class="footer-contact"><a href="tel:03301332700">0330 133 2700</a></p>
+          </div>
+          <!-- Services col -->
+          <div class="col-12 col-lg-3 col-md-4 mb-4 mb-lg-0">
+            <h6 class="footer-heading">Services</h6>
+            <ul class="footer-links">
+              <li><a href="#">Digital Transformation Consulting</a></li>
+              <li><a href="#">Cloud Transformation</a></li>
+              <li><a href="#">Azure Migration</a></li>
+              <li><a href="#">AI Adoption &amp; Transformation</a></li>
+              <li><a href="#">IT Infrastructure &amp; Networking</a></li>
+              <li><a href="#">Cyber Security</a></li>
+              <li><a href="#">Workplace Technology</a></li>
+            </ul>
+          </div>
+          <!-- Sectors col -->
+          <div class="col-12 col-lg-3 col-md-4 mb-4 mb-lg-0">
+            <h6 class="footer-heading">Sectors</h6>
+            <ul class="footer-links">
+              <li><a href="#">Healthcare</a></li>
+              <li><a href="#">Transport &amp; Cities</a></li>
+              <li><a href="#">Financial Services</a></li>
+              <li><a href="#">People First</a></li>
+            </ul>
+          </div>
+          <!-- Company col -->
+          <div class="col-12 col-lg-3 col-md-4">
+            <h6 class="footer-heading">Company</h6>
+            <ul class="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Insights</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-xl">
+        <div class="footer-bottom-wrapper d-flex flex-wrap justify-content-between align-items-center gap-3">
+          <p class="mb-0">Company Number 14469527</p>
+          <p class="mb-0 copy-right">© 2026 Emphasys IT Limited. All rights reserved. <br>Designed and developed by JDR Group.</p>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jQuery (for counter animation) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <!-- Custom JS -->
+   <script src="/owl.carousel.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

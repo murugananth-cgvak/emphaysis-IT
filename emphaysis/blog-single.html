@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emphasys IT – Digital Transformation That Actually Works</title>
+    <meta
+      name="description"
+      content="We help enterprise IT leaders plan, deliver and optimise cloud, AI and transformation programmes — with faster delivery, lower total cost and measurable outcomes."
+    />
+
+    <!-- Bootstrap 5 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <header class="site-header" id="site-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-lg">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="images/EmphasysIT - logo.webp" alt="logo" />
+          </a>
+          <!-- Contact + Search -->
+          <div class="d-flex align-items-center ms-auto order-3 order-xl-3">
+            <a
+              href="#"
+              class="btn btn-primary ms-lg-3 d-xl-inline-block nav-cta btn-primary-green"
+            >
+              Discuss Your Project
+            </a>
+            <a
+              class="nav-link text-white p-0 ms-3 search-trigger"
+              href="#"
+              id="searchTrigger"
+              aria-label="Open search"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </div>
+
+          <!-- ── Search Overlay ── -->
+          <div
+            class="search-overlay"
+            id="searchOverlay"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Site search"
+          >
+            <div class="search-box">
+              <div class="search-input-wrap">
+                <input
+                  type="text"
+                  id="searchInput"
+                  placeholder="Search"
+                  autocomplete="off"
+                  spellcheck="false"
+                />
+                <button class="search-submit" aria-label="Submit search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <p class="search-close-hint">
+                Press <kbd>Esc</kbd> or click outside to close
+              </p>
+            </div>
+          </div>
+          <!-- ── Close Button ── -->
+          <button
+            class="search-close-btn"
+            id="searchClose"
+            aria-label="Close search"
+          >
+            <i class="bi bi-x-lg"></i>
+          </button>
+
+          <!-- Hamburger -->
+          <button
+            class="navbar-toggler ms-3 order-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            id="navToggler"
+          >
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+
+          <!-- Toggler -->
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+
+          <!-- Nav links -->
+          <div
+            class="collapse navbar-collapse order-4 order-lg-2 order-xl-2"
+            id="navbarCollapse"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Services</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Digital Transformation Consulting</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Cloud Transformation</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Azure Migration</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >AI Adoption & Transformation</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >IT Infrastructure & Networking</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Workplace Technology</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Sectors</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Healthcare</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Transport & Cities</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Financial Services</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">People First</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Insights</a>
+              </li>
+            </ul>
+            <!-- <a href="#contact" class="btn btn-primary-green">Discuss Your Project</a> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="blog-toolbar">
+      
+        <div class="blog-toolbar-1 section px-3 py-3">
+          <div class="container">
+            <div
+            class="blog-filter-bar d-flex align-items-center gap-3  flex-column flex-sm-row justify-content-end"
+          >
+            <!-- Topics Dropdown -->
+            <div class="topics-dropdown-wrap position-relative">
+              <button class="topics-btn" id="topicsToggle">
+                <span id="selectedTopic">All Topics</span>
+                <svg
+                  class="chevron-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+
+              <div class="topics-menu" id="topicsMenu">
+                <ul class="topics-list" id="topicsList">
+                  <li class="topic-item active" data-value="All Topics">
+                    All Topics
+                  </li>
+                  <li
+                    class="topic-item"
+                    data-value="Inbound Marketing (SEO, PPC, Social Media, Video)"
+                  >
+                    Inbound Marketing (SEO, PPC, Social Media, Video)
+                  </li>
+                  <li class="topic-item" data-value="Strategy">Strategy</li>
+                  <li class="topic-item" data-value="Sales & CRM">
+                    Sales &amp; CRM
+                  </li>
+                  <li
+                    class="topic-item"
+                    data-value="Marketing Automation & Email Marketing"
+                  >
+                    Marketing Automation &amp; Email Marketing
+                  </li>
+                  <li class="topic-item" data-value="Business Growth">
+                    Business Growth
+                  </li>
+                  <li class="topic-item" data-value="Website Design">
+                    Website Design
+                  </li>
+                  <li class="topic-item" data-value="Hubspot">Hubspot</li>
+                  <li class="topic-item" data-value="Lead Generation">
+                    Lead Generation
+                  </li>
+                  <li class="topic-item" data-value="Social Media">
+                    Social Media
+                  </li>
+                  <li class="topic-item" data-value="PPC & Paid Ads">
+                    PPC &amp; Paid Ads
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Search -->
+            <div class="blog-search-wrap">
+              <input
+                type="text"
+                class="blog-search-input"
+                placeholder="Search the blog"
+              />
+              <button class="blog-search-btn" aria-label="Search">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog-single padd-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-12 left-sidebar order-3 order-lg-1">
+                    <div class="sticky-sidebar social-share">
+                        <div class="share-block text-center">
+                            <p>Share this</p>
+                            <div class="social-icons align-items-center d-flex flex-lg-column">
+                                <a href="#" class="social-icon-btn twitter" aria-label="Share on X">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                                        viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon-btn facebook" aria-label="Share on Facebook">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="320" height="512"
+                                        viewBox="0 0 320 512">
+                                        <path fill="currentColor"
+                                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon-btn linkedin" aria-label="Share on LinkedIn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="448" height="512"
+                                        viewBox="0 0 448 512">
+                                        <path fill="currentColor"
+                                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 order-lg-2">
+                    <div class="blog-post">
+                        <h2>SEO in 2026: How Google, AI Search, and Social Discovery Are Redefining Visibility</h2>
+                        <p class="post-meta">
+                            by <a href="#">Daniel Butler</a> on 18-Feb-2026 13:00:02
+                        </p>
+                        <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?w=800&amp;q=80"
+                            alt="SEO 2026" class="post-hero mb-3 img-fluid">
+                        <p>For the last decade, "getting found online" mostly meant one thing: ranking on Google. But in
+                            the past 12 months, search has changed dramatically - businesses that once dominated search
+                            results are now discovering a new landscape.</p>
+                        <h3>1. AI Overviews</h3>
+                        <p><span>In the past 12 months, there have been three major shifts which have defined
+                                visibility:</span></p>
+                        <h3>2. Social Discovery</h3>
+                        <p>Platforms like TikTok, Instagram Reels and YouTube Shorts have become genuine search engines
+                            — particularly for younger audiences who prefer video-first answers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 right-sidebar order-2 order-lg-3">
+                    <!-- Recent / Topics / Archive — Tab on desktop, Accordion on mobile -->
+                    <div class="sidebar-tab-block">
+
+                        <!-- ── DESKTOP: Tabs (md and above) ── -->
+                        <div class="d-none d-md-block">
+                            <ul class="nav sidebar-tabs mb-3" id="sidebarTabs" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="sidebar-tab-btn active" data-bs-toggle="tab"
+                                        data-bs-target="#tab-recent" type="button" role="tab">Recent</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="sidebar-tab-btn" data-bs-toggle="tab" data-bs-target="#tab-topics"
+                                        type="button" role="tab">Topics</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="sidebar-tab-btn" data-bs-toggle="tab" data-bs-target="#tab-archive"
+                                        type="button" role="tab">Archive</button>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="tab-recent" role="tabpanel">
+                                    <ul class="sidebar-post-list">
+                                        <li><a href="#">SEO in 2026: How Google, AI Search, and Social Discovery Are
+                                                Redefining Visibility</a></li>
+                                        <li><a href="#">Google's AI Overviews vs. Your Website: How to Protect (and
+                                                Grow) Your Traffic</a></li>
+                                        <li><a href="#">Meta Expands Threads Ads With Catalogue and Carousel
+                                                Formats</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="tab-topics" role="tabpanel">
+                                    <ul class="sidebar-post-list">
+                                        <li><a href="#">SEO &amp; Search</a></li>
+                                        <li><a href="#">AI &amp; Technology</a></li>
+                                        <li><a href="#">Social Media</a></li>
+                                        <li><a href="#">Content Marketing</a></li>
+                                        <li><a href="#">Lead Generation</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="tab-archive" role="tabpanel">
+                                    <ul class="sidebar-post-list">
+                                        <li><a href="#">February 2026</a></li>
+                                        <li><a href="#">January 2026</a></li>
+                                        <li><a href="#">December 2025</a></li>
+                                        <li><a href="#">November 2025</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ── MOBILE: Accordion (below md) ── -->
+                        <div class="d-md-none">
+                            <div class="sidebar-accordion" id="sidebarAccordion">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#acc-recent" aria-expanded="true">
+                                            Recent
+                                        </button>
+                                    </h2>
+                                    <div id="acc-recent" class="accordion-collapse collapse show"
+                                        data-bs-parent="#sidebarAccordion">
+                                        <div class="accordion-body p-0">
+                                            <ul class="sidebar-post-list">
+                                                <li><a href="#">SEO in 2026: How Google, AI Search, and Social
+                                                        Discovery Are Redefining Visibility</a></li>
+                                                <li><a href="#">Google's AI Overviews vs. Your Website: How to
+                                                        Protect (and Grow) Your Traffic</a></li>
+                                                <li><a href="#">Meta Expands Threads Ads With Catalogue and Carousel
+                                                        Formats</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#acc-topics"
+                                            aria-expanded="false">
+                                            Topics
+                                        </button>
+                                    </h2>
+                                    <div id="acc-topics" class="accordion-collapse collapse"
+                                        data-bs-parent="#sidebarAccordion">
+                                        <div class="accordion-body p-0">
+                                            <ul class="sidebar-post-list">
+                                                <li><a href="#">SEO &amp; Search</a></li>
+                                                <li><a href="#">AI &amp; Technology</a></li>
+                                                <li><a href="#">Social Media</a></li>
+                                                <li><a href="#">Content Marketing</a></li>
+                                                <li><a href="#">Lead Generation</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#acc-archive"
+                                            aria-expanded="false">
+                                            Archive
+                                        </button>
+                                    </h2>
+                                    <div id="acc-archive" class="accordion-collapse collapse"
+                                        data-bs-parent="#sidebarAccordion">
+                                        <div class="accordion-body p-0">
+                                            <ul class="sidebar-post-list">
+                                                <li><a href="#">February 2026</a></li>
+                                                <li><a href="#">January 2026</a></li>
+                                                <li><a href="#">December 2025</a></li>
+                                                <li><a href="#">November 2025</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="subscribe-mail">
+                        <h6>Subscribe by email</h6>
+                        <input type="email" placeholder="your@email.com">
+                        <p class="small-text">
+                            Any email you provide to us as contact information you provide to us to contact you
+                            about our products and services. You may unsubscribe from these communications at
+                            anytime. For information on how to unsubscribe, as well as our privacy practices and
+                            commitment to protecting your privacy, check out our privacy policy.
+
+                        </p>
+                        <div class="button-section text-center">
+                            <a href="#" class="btn btn-primary arrow-btn mt-3">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="post-navbar">
+        <div class="container">
+            <div class="row align-items-stretch">
+                <div class="col-md-5">
+                    <div class="prev-blog-nav text-md-end">
+                        <div class="label">Previous Blog</div>
+                        <a href="#">
+                            <span class="arrow">←</span>
+                            Google's AI Overviews vs. Your Website: How to Protect and Grow Your Traffic
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 justify-content-center d-flex align-items-center blog-home">
+                    <div class="blog-nav-home">
+                        <a class="blog-nav__link" href="#" aria-label="JDR Group's 'Digital Prosperity' Blog">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M19.7858 7.08301L13.8102 2.59727C12.7148 1.77495 11.2099 1.80445 10.1467 2.6691L4.12227 7.5684C3.41279 8.14537 3 9.01739 3 9.93921V18.9601C3 20.639 4.34315 22 6 22L8 22H10H14H16L18 22C19.6569 22 21 20.639 21 18.9601V9.52566C21 8.56251 20.5496 7.65634 19.7858 7.08301ZM16 19.9734H18C18.5523 19.9734 19 19.5197 19 18.9601V9.52566C19 9.20461 18.8499 8.90255 18.5953 8.71144L12.6197 4.2257C12.2546 3.95159 11.7529 3.96143 11.3985 4.24965L5.37409 9.14894C5.1376 9.34126 5 9.63194 5 9.93921V18.9601C5 19.5197 5.44772 19.9734 6 19.9734H8V16.9335C8 14.6949 9.79086 12.8803 12 12.8803C14.2091 12.8803 16 14.6949 16 16.9335V19.9734ZM10 19.9734H14V16.9335C14 15.8142 13.1046 14.9069 12 14.9069C10.8954 14.9069 10 15.8142 10 16.9335V19.9734Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="next-blog-nav">
+                        <div class="label">Next Blog</div>
+                        <a href="#">
+
+                            Google's AI Overviews vs. Your Website: How to Protect and Grow Your Traffic <span
+                                class="arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer" id="contact">
+      <div class="footer-top">
+        <div class="container-xl">
+          <div class="row g-5">
+            <!-- Brand col -->
+            <div class="col-lg-3 mb-4 mb-lg-0">
+              <a class="navbar-brand mb-3 d-inline-block" href="#">
+                <img src="images/footer-logo.webp" alt="logo" />
+                <!-- <span class="logo-text">Emphasys <span class="logo-accent">IT</span></span> -->
+              </a>
+              <p class="footer-tagline">
+                Digital transformation consultancy for complex organisations.
+              </p>
+              <p class="footer-contact">
+                <a href="mailto:hello@emphasysit.com">hello@emphasysit.com</a>
+              </p>
+              <p class="footer-contact">
+                <a href="tel:03301332700">0330 133 2700</a>
+              </p>
+            </div>
+            <!-- Services col -->
+            <div class="col-12 col-lg-3 col-md-4 mb-4 mb-lg-0">
+              <h6 class="footer-heading">Services</h6>
+              <ul class="footer-links">
+                <li><a href="#">Digital Transformation Consulting</a></li>
+                <li><a href="#">Cloud Transformation</a></li>
+                <li><a href="#">Azure Migration</a></li>
+                <li><a href="#">AI Adoption &amp; Transformation</a></li>
+                <li><a href="#">IT Infrastructure &amp; Networking</a></li>
+                <li><a href="#">Cyber Security</a></li>
+                <li><a href="#">Workplace Technology</a></li>
+              </ul>
+            </div>
+            <!-- Sectors col -->
+            <div class="col-12 col-lg-3 col-md-4 mb-4 mb-lg-0">
+              <h6 class="footer-heading">Sectors</h6>
+              <ul class="footer-links">
+                <li><a href="#">Healthcare</a></li>
+                <li><a href="#">Transport &amp; Cities</a></li>
+                <li><a href="#">Financial Services</a></li>
+                <li><a href="#">People First</a></li>
+              </ul>
+            </div>
+            <!-- Company col -->
+            <div class="col-12 col-lg-3 col-md-4">
+              <h6 class="footer-heading">Company</h6>
+              <ul class="footer-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Insights</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container-xl">
+          <div
+            class="footer-bottom-wrapper d-flex flex-wrap justify-content-between align-items-center gap-3"
+          >
+            <p class="mb-0">Company Number 14469527</p>
+            <p class="mb-0 copy-right">
+              © 2026 Emphasys IT Limited. All rights reserved. <br />Designed
+              and developed by JDR Group.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery (for counter animation) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
